@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f5eeb3;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo > img {
+  width: 10rem;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  width: 70vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(12px);
+  border-radius: 4px;
+  padding: 1.5rem 1rem 0 0.5rem;
+}
+
+.right ul {
+  display: flex;
+  gap: 3rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  font-weight: 900;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  margin-top: 3rem;
+}
+
+.container {
+  color: black;
+  width: 70vw;
+  border: 5px solid #000000;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.12);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  background: rgba(168, 232, 144, 1);
+}
+
+.container h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  margin-top: 3rem;
+}
+
+.container h4 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 28px;
+  margin-bottom: 1rem;
+}
+
+.images img {
+  height: 16rem;
+}
+
+.links a {
+  background: rgba(66, 95, 87, 1);
+  padding: 12px 48px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  margin: 13px;
+  border-radius: 12px;
+}
+
+.links a:hover {
+  background-color: rgb(23, 42, 36);
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 70vw;
+  gap: 3rem;
+}
+
+.about_left img {
+  border: 3.8px solid #000000;
+  box-shadow: 0px 19.0415px 38.0829px rgba(0, 0, 0, 0.12);
+  border-radius: 38.0829px;
+}
+
+.about_right h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 61px;
+}
+
+.about_right p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.about_right a {
+  background: rgba(66, 95, 87, 1);
+  border-radius: 12px;
+  padding: 12px 48px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  margin-top: 3rem;
+}
+.about_right a:hover {
+  background-color: rgb(23, 42, 36);
+}
+.tech_stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+.tech_stack h1 {
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.stack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70vw;
+}
+
+.list ul li {
+  list-style: none;
+}
+
+.list ul li img {
+  width: 12rem;
+  margin-bottom: -29px;
+  transition: 0.3s;
+}
+.list ul li img:hover {
+  transform: translate(2px, -2px);
+}
+.list ul h4 {
+  width: 12rem;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.team h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+}
+.designation {
+  text-align: center;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  opacity: 0.6;
+  font-size: 1rem;
+  font-family: "Google Sans";
+}
