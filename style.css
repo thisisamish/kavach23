@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: #f5eeb3;
+  background: #e4e4e4;
   overflow-x: hidden;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 .logo > img {
-  width: 10rem;
+  width: 7rem;
 }
 
 nav {
@@ -78,7 +78,7 @@ nav ul li a:hover {
   justify-content: center;
   flex-direction: column;
   gap: 30px;
-  background: rgba(168, 232, 144, 1);
+  background: #3a98b9;
 }
 
 .container h1 {
@@ -100,64 +100,86 @@ nav ul li a:hover {
 }
 
 .links a {
-  background: rgba(66, 95, 87, 1);
+  background: #fff1dc;
   padding: 12px 48px;
   text-decoration: none;
   font-size: 15px;
-  color: white;
+  color: #0c1e25;
   margin: 13px;
   border-radius: 12px;
+  border: 2px solid #262c2f;
 }
 
 .links a:hover {
-  background-color: rgb(23, 42, 36);
+  background-color: #0c1e25;
+  color: #fff1dc;
+  transition: ease-in-out;
 }
 
 .about {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100vh;
   width: 70vw;
   gap: 3rem;
+  margin-top: 13rem;
 }
 
-.about_left img {
+.about_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+/* .about_left img {
   border: 3.8px solid #000000;
   box-shadow: 0px 19.0415px 38.0829px rgba(0, 0, 0, 0.12);
   border-radius: 38.0829px;
-}
+} */
 
 .about_right h1 {
   font-weight: 800;
   font-size: 2.5rem;
   line-height: 61px;
+  margin-top: -3rem;
 }
 
 .about_right p {
   font-weight: 500;
   font-size: 17px;
   line-height: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 3rem;
   text-align: justify;
 }
 .about_right a {
-  background: rgba(66, 95, 87, 1);
+  background: #3a98b9;
   border-radius: 12px;
   padding: 12px 48px;
   text-decoration: none;
   font-size: 15px;
   color: white;
   margin-top: 3rem;
+  border: 2px solid #0c1e25;
 }
 .about_right a:hover {
   background-color: rgb(23, 42, 36);
 }
+
+.cases {
+  font-weight: 600;
+  font-size: 48px;
+ 
+}
+
 .tech_stack {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+  margin-top: 6rem;
 }
 .tech_stack h1 {
   font-weight: 800;
@@ -171,13 +193,20 @@ nav ul li a:hover {
   width: 70vw;
 }
 
+.list ul
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .list ul li {
   list-style: none;
 }
 
 .list ul li img {
-  width: 12rem;
-  margin-bottom: -29px;
+  width: 9rem;
+  margin-bottom: 2px;
   transition: 0.3s;
 }
 .list ul li img:hover {
@@ -202,10 +231,11 @@ nav ul li a:hover {
   font-weight: 800;
 }
 .members {
+  width: 70vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2rem;
+  gap: 8rem;
   justify-content: center;
   align-items: center;
 }
@@ -225,4 +255,18 @@ footer {
   opacity: 0.6;
   font-size: 1rem;
   font-family: "Google Sans";
+  margin-top: 3rem;
+}
+
+.bd
+{
+
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+.applications li
+
+{
+  padding: 1rem;
 }
